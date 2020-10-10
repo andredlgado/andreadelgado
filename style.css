@@ -225,18 +225,17 @@ body {
 
 
 section{
-    margin-top: 120px;
+    width: 900px;
+    margin-left:-100px;
+    margin-top: 150px;
     position: absolute;
-    height: 100px;
     overflow: hidden;
 }
 
 section .inside{
     width: 100%;
     display: flex;
-    animation-iteration-count: infinite;
-    animation-name: moverBg;
-    animation-duration: 5s;
+    animation: animate 20s linear infinite;
 
 }
 
@@ -244,13 +243,13 @@ section .inside{
 section .inside div{
     color: var(--black);
     white-space: nowrap;
-    animation: animate 40s linear infinite;
+
 
 }
 
 @keyframes animate{
     0%{
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
     100%{
         transform: translateX(-100%);
@@ -305,16 +304,13 @@ section .inside div{
     margin-top: 20px;
     margin-left: 400px;
     z-index: 1;
-    transition: 2s color, letter spacing, linear;
+    transition: 2s, text-decoration, linear;
     text-decoration: none;
 }
 
 .txt:hover{
-    color: var(--tomato);
-    letter-spacing: 6px;
+    text-decoration: underline;
     position: absolute;
-    margin-top: 30px;
-    margin-left: 300px;
     z-index: 1;
 
 }
