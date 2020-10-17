@@ -297,23 +297,37 @@ section .inside div{
 
 
 
-.txt{
+h1{
     font-size: 80px;
     color: var(--black);
     position: absolute;
     margin-top: 20px;
     margin-left: 400px;
     z-index: 1;
-    transition: 2s, text-decoration, linear;
-    text-decoration: none;
+    text-decoration:none;
+    transition: 4s, text-decoration, linear;
 }
 
-.txt:hover{
+h1::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+  
+
+h1:hover{
     text-decoration: underline;
     position: absolute;
     z-index: 1;
 
 }
+
+.h1:hover::after {
+    width: 100%;
+  }
 
 .number{
     position: absolute;
@@ -329,7 +343,7 @@ section .inside div{
     z-index: 4;
 }
 
-.txt2{
+.h1{
     font-size: 80px;
     color: var(--black);
     position: absolute;
@@ -340,7 +354,7 @@ section .inside div{
     text-decoration: none;
 }
 
-.txt2:hover{
+.h1:hover{
     color: var(--tomato);
     letter-spacing: 6px;
     position: absolute;
@@ -366,3 +380,57 @@ section .inside div{
 .button:hover{
     background-color: var(--aqua);
 }
+
+.grilla{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1.2fr 1.5fr;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0;
+    padding:0;
+}
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .two { 
+    border: 3px solid black;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+
+  .two img{ 
+    width: 30%;
+    padding: 100px 50px;
+
+}
+
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+
+  .three img{
+    width:150%;
+  }
+  .four {
+    margin-bottom: 200px;
+    width: 400px;
+    font-size: 12px;
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .six {
+    margin-top: 200px;
+    grid-column: 3;
+    grid-row: 4;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .six img{
+      width: 100%;
+  }
