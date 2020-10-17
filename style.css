@@ -423,6 +423,9 @@ h1:hover{
     grid-row: 3;
   }
 
+  .four:hover{
+      color: var(--aqua);
+  }
   .six {
     margin-top: 200px;
     grid-column: 3;
