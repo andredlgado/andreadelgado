@@ -343,7 +343,7 @@ h1:hover{
     z-index: 4;
 }
 
-.h1{
+#other-side{
     font-size: 80px;
     color: var(--black);
     position: absolute;
@@ -354,15 +354,29 @@ h1:hover{
     text-decoration: none;
 }
 
-.h1:hover{
-    color: var(--tomato);
-    letter-spacing: 6px;
+#other-side:hover{
+    text-decoration: underline;
     position: absolute;
-    margin-top: 40px;
-    margin-left:-380px;
     z-index: 1;
 
 }
+
+#other-side:hover::after {
+    width: 100%;
+  }
+
+#other-side::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+  
+
+
+
 
 .button{
     position: absolute;
