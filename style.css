@@ -23,6 +23,7 @@
 body {
     background-color:var(--white);
     transition: background-color 1s ease;
+    margin: 0;
   }
  
 
@@ -161,7 +162,6 @@ body {
     margin-top: 200px;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .color-violet {
@@ -192,26 +192,24 @@ body {
 }
 
 .hijo p{
-    width: 10%;
+    width: 170px;
     font-size: 12px;
     color: var(--black);
     padding:10px;
     background-color: var(--white);
     position: absolute;
     z-index: 2;
-    margin-left: 120px;
-    margin-top: 200px;
+    margin-left: 450px;
+    margin-top: 210px;
 }
 
 .hijo .p2{
-    width: 500px;
+    width: 373px;
     font-size: 12px;
     color: var(--black);
-    padding:10px;
     background-color: var(--white);
-    position: absolute;
-    z-index: 2;
-    margin-left: -600px;
+    margin-left: 35px;
+    margin-top: 240px;
 }
 
 
@@ -226,7 +224,7 @@ body {
 
 section{
     width: 900px;
-    margin-left:-100px;
+    margin-left:0px;
     margin-top: 150px;
     position: absolute;
     overflow: hidden;
@@ -294,19 +292,26 @@ section .inside div{
     margin: 80px 80px;
 
 }
-
-
-
 h1{
     font-size: 80px;
     color: var(--black);
     position: absolute;
     margin-top: 20px;
-    margin-left: 400px;
+    margin-left:350px;
     z-index: 1;
-    text-decoration:none;
-    transition: 4s, text-decoration, linear;
+    text-decoration: none;
 }
+
+h1:hover{
+    text-decoration: underline;
+    position: absolute;
+    z-index: 1;
+
+}
+
+h1:hover::after {
+    width: 100%;
+  }
 
 h1::after {
     content: '';
@@ -316,41 +321,14 @@ h1::after {
     background: black;
     transition: 300ms;
   }
-  
-
-h1:hover{
-    text-decoration: underline;
-    position: absolute;
-    z-index: 1;
-
-}
-
-.h1:hover::after {
-    width: 100%;
-  }
-
-.number{
-    position: absolute;
-    margin: -120px -50px;
-    height: 100px;
-    z-index: 4;
-}
-
-.number3{
-    position: absolute;
-    margin: -120px -10px;
-    height: 100px;
-    z-index: 4;
-}
 
 #other-side{
     font-size: 80px;
     color: var(--black);
     position: absolute;
     margin-top: 20px;
-    margin-left:-400px;
+    margin-left:180px;
     z-index: 1;
-    transition: 2s color, letter spacing, linear;
     text-decoration: none;
 }
 
@@ -373,10 +351,20 @@ h1:hover{
     background: black;
     transition: 300ms;
   }
-  
 
+  .number{
+    position: absolute;
+    margin: -120px 450px;
+    height: 100px;
+    z-index: 4;
+}
 
-
+.number3{
+    position: absolute;
+    margin: -120px -10px;
+    height: 100px;
+    z-index: 4;
+}
 
 .button{
     position: absolute;
@@ -384,8 +372,8 @@ h1:hover{
     height: 50px;
     background-color: var(--black);
     text-align: center;
-    margin-top: 250px;
-    margin-left: 490px;
+    margin-top: 210px;
+    margin-left: 750px;
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
@@ -394,6 +382,24 @@ h1:hover{
 .button:hover{
     background-color: var(--tomato);
 }
+
+.button2{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: var(--black);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 255px;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--pink);
+}
+
+.button2:hover{
+    background-color: var(--tomato);
+}
+
 
 .grilla{
     display: grid;
@@ -440,6 +446,7 @@ h1:hover{
   .four:hover{
       color: var(--aqua);
   }
+
   .six {
     margin-top: 200px;
     grid-column: 3;
@@ -451,3 +458,81 @@ h1:hover{
   .six img{
       width: 100%;
   }
+
+  .seven{
+   margin-top: 400px;
+ 
+}
+
+  /*
+input[type=text] {
+    flex-grow: 1;
+    padding: 100px;
+    width: 200px;
+    color: #d6d6d6;
+    /*-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--black);
+    font-size: 70px;
+    border: none;
+  }
+*/
+
+#form{
+    display: flex;
+    flex-direction: row;
+}
+
+.paises{
+    font-size: 12px;
+    padding-left: 40px;
+    flex-grow: 1;
+    align-self: center;
+}
+
+input[type=email] {
+    align-self: center;
+    flex-grow: 1;
+    height: auto;
+    color: #d6d6d6;
+    /*-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: var(--black);*/
+    font-size: 70px;
+    border: none;
+  }
+ 
+
+input[type=submit] {
+    font-size: 12px;
+    align-self: center;
+    flex-grow: 1;
+    padding: 20px;
+    border: none;
+    background-color:var(--white);
+  }
+
+footer{
+    height: 100px;
+  }
+
+.footer-list{
+    display: flex;
+    background-color: var(--black);
+
+  }
+
+ .footer-list-item{
+    flex-grow: 1;
+    list-style: none;
+    padding-bottom: 5px;
+    text-align: center;
+
+    }
+
+.footer-list-item a{
+    font-size: 10px;
+    color: var(--aqua);
+    text-decoration: none;
+
+
+    }
+    

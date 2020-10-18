@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="images/favico.png" rel="shortcut icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Andrea Delgado</title>
@@ -67,20 +68,16 @@
         <div class="panel hijo" data-color="indigo">
             <img class="number" src="images/2.svg" alt="two">
             <h1 id="other-side">MyCat</h1>
-            <p class="p2">MyCat is an app for cat owners where you can store all your pet’s data, 
-                like things related to health. For instance, if you have to travel, you can have 
-                all your vaccines certificates ready to present on your phone. Also, you can 
-                keep account of your cats weight and the type of food you feed your cat.
-
-            </p>
+            <p class="p2">All you need to know about your cat, in one place.</p>
             <div class="overflow2">
-            <img class="image2" src="images/mycat.gif" alt="mycat logo">
+            <video class="image2" src="images/mycat.mp4" playsinline autoplay muted loop></video>
+            <a class="button2" href="mycat.html">see more</a>
             </div>
         </div>
 
 
         <div class="panel hijo" data-color="blue">
-            <img class="number3" src="images/3.svg" alt="three">
+            <img class="number" src="images/3.svg" alt="three">
             <h1>Antolin</h1>
             <p>Social media campaing for Natalia Antolin's 2018 collection. 
                 On this project, the three brands, China, VL and Antolin were displayed altogether 
@@ -89,10 +86,39 @@
             </p>
             <div class="overflow">
             <img class="image1" src="images/antolin.jpg" alt="antolin 2018">
+            <a class="button" href="antolin.html">see more</a>
             </div>
         </div>
 
     </main>
+
+    <form id="form" action="enviar.js" method="get" class="panel" data-color="white">
+            <label class="paises"> Where are you from?:
+                <input type="text" list="paises">
+                </label>
+                <datalist id="paises">
+                    <option>LATAM</option>
+                        <option>USA</option>
+                        <option>Canada</option>
+                        <option>Europe</option>
+                        <option>UK</option>
+                        <option>Asia</option>
+                        <option>Africa</option>
+                        <option>Australia</option>
+                </datalist><br>
+            <input type="email" placeholder="address@email.com" required>
+            <input type="submit" value="submit">  
+    </form>
+
+    <footer>
+            <ul class="footer-list">
+                <li class="footer-list-item"><a href="#">All rights reserved. 2021</a></li>
+                <li class="footer-list-item"><a href="#">CONTACT</a></li>
+                <li class="footer-list-item"><a href="https://www.instagram.com/andredlgado/">IG</a></li>
+                <li class="footer-list-item"><a href="https://www.linkedin.com/in/andredel/">LI</a></li>
+                <li class="footer-list-item"><a href="https://www.behance.net/delgadoandrea">BE</a></li>
+            </ul>
+    </footer>
     <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script src="script.js"></script>
 </body>
 </html>
