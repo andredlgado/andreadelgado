@@ -174,10 +174,10 @@ body {
     background-color: var(--yellow);
   }
   .color-green {
-    background-color:var(--green);
+    background-color: var(--green);
   }
-  .color-yellow {
-    background-color: #FAEB33;
+  .color-tomato {
+    background-color: var(--tomato);
   }
   .color-orange {
     background-color: #F19031;
@@ -269,7 +269,6 @@ section .inside div{
     }
 }
 
-
 .overflow2{
     width: 1000px;
     height: 400px;
@@ -278,20 +277,29 @@ section .inside div{
 
 }
 
-
 .image1{
     position: absolute;
     margin: -40px -180px;
 
 }
 
-
 .image2{
     position: absolute;
     width: 1000px;
     margin: 80px 80px;
+}
+
+.image3{
+    position: absolute;
+    transition: 10s transform linear;
+    margin-left:-250px;
+}
+
+.image3:hover{
+    transform: rotate(360deg);
 
 }
+
 h1{
     font-size: 80px;
     color: var(--black);
