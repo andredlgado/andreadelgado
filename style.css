@@ -638,6 +638,19 @@ footer{
             height: 100%;
             letter-spacing: 45px;
             }
+
+        .button{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin-top: 210px;
+            margin-left: 600px;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
     }
     
     @media only screen and (max-width: 479px){
@@ -712,6 +725,79 @@ footer{
             height: 100%;
             letter-spacing: 20px;
             }
+
+        .button{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin: 400px 197px;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
+
+        h1{
+            font-size: 40px;
+            color: var(--black);
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 70px;
+            z-index: 1;
+            text-decoration: none;
+        }
+
+        .overflow{
+            width: 350px;
+            height: 500px;
+            border: 2px solid var(--black);
+            overflow: hidden;
+            margin-top:-200px;
+        
+        }
+        
+        
+        section{
+            width: 478px;
+            margin-left:0px;
+            margin-top: 150px;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .overflow2{
+            width: 478px;
+            height: 400px;
+            border: 2px solid var(--black);
+            overflow: hidden;
+        
+        }
+
+        .image1{
+            position: absolute;
+            width: 400px;
+            margin-left: -50px;
+        
+        }
+
+        .image2{
+            position: absolute;
+            width: 478px;
+            margin: 20px 20px;
+        }
+
+        .image3{
+            position: absolute;
+            transition: 10s transform linear;
+        }
+
+        .number{
+            position: absolute;
+            margin:-250px 0 0 20px;
+            height: 100px;
+            z-index: 10;
+        }
 
     
 
