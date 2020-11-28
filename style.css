@@ -153,13 +153,13 @@ body {
     float: left;
     min-width: 20%;
     padding-left: 40px;
-    padding-top: 200px;
+    padding-top: 130px;
     letter-spacing: 3px;
 }
 
 .panel {
     min-height: 100vh;
-    margin-top: 200px;
+    margin-bottom: 200px;
     display: flex;
     flex-direction: column;
   }
@@ -209,6 +209,15 @@ body {
     color: var(--black);
     background-color: var(--white);
     margin-left: 35px;
+    margin-top: 240px;
+}
+
+.hijo .p3{
+    width: auto;
+    font-size: 12px;
+    color: var(--black);
+    background-color: var(--white);
+    margin-left: 713px;
     margin-top: 240px;
 }
 
@@ -364,7 +373,7 @@ h1::after {
     position: absolute;
     margin: -120px 450px;
     height: 100px;
-    z-index: 4;
+    z-index: 10;
 }
 
 .number3{
@@ -408,6 +417,22 @@ h1::after {
     background-color: var(--tomato);
 }
 
+.button3{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: var(--black);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 385px;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--pink);
+}
+
+.button3:hover{
+    background-color: var(--tomato);
+}
 
 .grilla{
     display: grid;
@@ -433,16 +458,16 @@ h1::after {
     width: 30%;
     padding: 100px 50px;
 
-}
+    }
 
   .three {
     grid-column: 1;
     grid-row: 2 / 5;
-  }
+    }
 
   .three img{
     width:150%;
-  }
+    }
   .four {
     margin-bottom: 200px;
     width: 400px;
@@ -453,6 +478,14 @@ h1::after {
 
   .four:hover{
       color: var(--aqua);
+  }
+  .four2 {
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 12px;
+    grid-column: 3;
+    grid-row: 3;
   }
 
   .six {
@@ -469,33 +502,19 @@ h1::after {
 
   .seven{
    margin-top: 400px;
- 
-}
-
-  /*
-input[type=text] {
-    flex-grow: 1;
-    padding: 100px;
-    width: 200px;
-    color: #d6d6d6;
-    /*-webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: var(--black);
-    font-size: 70px;
-    border: none;
-  }
-*/
+   }
 
 #form{
     display: flex;
     flex-direction: row;
-}
+    }
 
 .paises{
     font-size: 12px;
     padding-left: 40px;
     flex-grow: 1;
     align-self: center;
-}
+    }
 
 input[type=email] {
     align-self: center;
@@ -506,9 +525,8 @@ input[type=email] {
     -webkit-text-stroke-color: var(--black);*/
     font-size: 70px;
     border: none;
-  }
+    }
  
-
 input[type=submit] {
     font-size: 12px;
     align-self: center;
@@ -516,31 +534,51 @@ input[type=submit] {
     padding: 20px;
     border: none;
     background-color:var(--white);
-  }
+    cursor: pointer;
+    }
 
 footer{
     height: 100px;
-  }
+    }
 
 .footer-list{
     display: flex;
     background-color: var(--black);
-
-  }
+    }
 
  .footer-list-item{
     flex-grow: 1;
     list-style: none;
     padding-bottom: 5px;
     text-align: center;
-
     }
 
 .footer-list-item a{
     font-size: 10px;
     color: var(--aqua);
     text-decoration: none;
+    }
 
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        body{
+            background-color: #F19031;
+        }
 
+        .panel {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+          }
+        
+    
+    }
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px){
+        
+
+    }
+    
+    @media only screen and (min-width: 0px) and (max-width: 479px){
+    
     }
     
