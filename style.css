@@ -912,30 +912,25 @@ footer{
             }
         
         input[type=email] {
-            display:none;
-            /*
             align-self: center;
             flex-grow: 1;
             height: auto;
             color: #d6d6d6;
             font-size: 30px;
             border: none;
-            */
             }
         
         input[type=submit] {
-            display: none;
-            /*
             font-size: 12px;
             align-self: center;
             flex-grow: 1;
             padding: 20px;
             border: none;
             background-color:var(--white);
-            cursor: pointer;*/
+            cursor: pointer;
             }
             footer{
-                display: none;
+                
                 }
 
 
