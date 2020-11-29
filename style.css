@@ -24,6 +24,7 @@ body {
     background-color:var(--white);
     transition: background-color 1s ease;
     margin: 0;
+    oveflow-x: hidden;
   }
  
 
@@ -310,7 +311,7 @@ section .inside div{
 }
 .image4{
     position: absolute;
-    margin: -40px -180px;
+    margin: -40px 0px;
 
 }
 
@@ -382,7 +383,7 @@ h1::after {
 }
 .number2{
     position: absolute;
-    margin: -120px -10px;
+    margin: -120px 350px;
     height: 100px;
     z-index: 4;
 }
@@ -765,6 +766,18 @@ footer{
             text-decoration: none;
             color: var(--pink);
         }
+        .button3{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin: 10px 148px 0;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
+        
 
         h1{
             font-size: 40px;
@@ -802,8 +815,7 @@ footer{
             font-size: 12px;
             color: var(--black);
             background-color: var(--white);
-            margin-left: 713px;
-            margin-top: 240px;
+            margin:0;
         }
         
 
@@ -818,11 +830,13 @@ footer{
         
         
         section{
+            display: none;
+            /*
             width: 478px;
             margin-left:0px;
             margin-top: 150px;
             position: absolute;
-            overflow: hidden;
+            overflow: hidden;*/
         }
 
         .overflow2{
@@ -848,6 +862,8 @@ footer{
 
         .image3{
             position: absolute;
+            width: 100vw;
+            margin:125px 0;
             transition: 10s transform linear;
         }
 
@@ -879,6 +895,47 @@ footer{
             z-index: 1;
             text-decoration: none;
         }
+
+        #form{
+            display: none;
+            /*display: flex;
+            flex-direction: row;
+            */
+            }
+        
+        .paises{
+            font-size: 12px;
+            padding-left: 40px;
+            flex-grow: 1;
+            align-self: center;
+            }
+        
+        input[type=email] {
+            display:none;
+            /*
+            align-self: center;
+            flex-grow: 1;
+            height: auto;
+            color: #d6d6d6;
+            font-size: 30px;
+            border: none;
+            */
+            }
+        
+        input[type=submit] {
+            display: none;
+            /*
+            font-size: 12px;
+            align-self: center;
+            flex-grow: 1;
+            padding: 20px;
+            border: none;
+            background-color:var(--white);
+            cursor: pointer;*/
+            }
+            footer{
+                display: none;
+                }
 
 
     
