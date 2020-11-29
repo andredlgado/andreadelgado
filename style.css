@@ -308,6 +308,11 @@ section .inside div{
     transform: rotate(360deg);
 
 }
+.image4{
+    position: absolute;
+    margin: -40px -180px;
+
+}
 
 h1{
     font-size: 80px;
@@ -375,7 +380,12 @@ h1::after {
     height: 100px;
     z-index: 10;
 }
-
+.number2{
+    position: absolute;
+    margin: -120px -10px;
+    height: 100px;
+    z-index: 4;
+}
 .number3{
     position: absolute;
     margin: -120px -10px;
@@ -654,6 +664,12 @@ footer{
     }
     
     @media only screen and (max-width: 479px){
+        
+        .panel {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+          }
         .nav{
             width: 70vw;
             position: fixed;
@@ -666,7 +682,6 @@ footer{
             min-width: 20%;
             padding-left: 40px;
             padding-top: 30px;
-            margin-bottom: 100px;
             letter-spacing: 3px;
         }
 
@@ -744,7 +759,7 @@ footer{
             height: 50px;
             background-color: var(--black);
             text-align: center;
-            margin-top: 300px;
+            margin-top: 380px;
             margin-left: 0;
             padding: 12px;
             text-decoration: none;
@@ -760,14 +775,26 @@ footer{
             z-index: 1;
             text-decoration: none;
         }
+        .hijo p{
+            width: 170px;
+            font-size: 12px;
+            color: var(--black);
+            padding:10px;
+            background-color: var(--white);
+            position: absolute;
+            z-index: 2;
+            margin-left: 130px;
+            margin-top: -150px;
+        }
+        
 
         .hijo .p2{
-            width: 373px;
+            width: 250px;
             font-size: 12px;
             color: var(--black);
             background-color: var(--white);
-            margin-left: 10px;
-            margin-top: 140px;
+            margin-left: 70px;
+            margin-top: -20px;
         }
         
         .hijo .p3{
@@ -799,7 +826,7 @@ footer{
         }
 
         .overflow2{
-            width: 350px;
+            width: 300px;
             height: 500px;
             border: 2px solid var(--black);
             overflow: hidden;
@@ -811,7 +838,6 @@ footer{
             position: absolute;
             width: 400px;
             margin-left: -50px;
-        
         }
 
         .image2{
@@ -825,11 +851,23 @@ footer{
             transition: 10s transform linear;
         }
 
+        .image4{
+            position: absolute;
+            width: 200px;
+            margin-left: -50px;
+        }
+
         .number{
             position: absolute;
             margin:-250px 0 0 20px;
             height: 100px;
             z-index: 10;
+        }
+        .number2{
+            position: absolute;
+            margin: -320px 220px;
+            height: 100px;
+            z-index: 4;
         }
 
         #other-side{
@@ -837,7 +875,7 @@ footer{
             color: var(--black);
             position: absolute;
             margin-top: -150px;
-            margin-left: 100px;
+            margin-left: 73px;
             z-index: 1;
             text-decoration: none;
         }
