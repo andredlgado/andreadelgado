@@ -760,8 +760,7 @@ footer{
             height: 50px;
             background-color: var(--black);
             text-align: center;
-            margin-top: 380px;
-            margin-left: 0;
+            margin: 170px 0;
             padding: 12px;
             text-decoration: none;
             color: var(--pink);
@@ -783,7 +782,7 @@ footer{
             font-size: 40px;
             color: var(--black);
             position: absolute;
-            margin-top: 50px;
+            margin-top: 70px;
             margin-left: 70px;
             z-index: 1;
             text-decoration: none;
@@ -815,7 +814,7 @@ footer{
             font-size: 12px;
             color: var(--black);
             background-color: var(--white);
-            margin:0;
+            margin:0 255px;
         }
         
 
@@ -853,24 +852,22 @@ footer{
         }
 
         .image2{
-            display: none;
-            /*
-            position: absolute;
+            position: relative;
             width: 400px;
-            margin: 10px;*/
+            margin: 10px;
         }
 
         .image3{
-            display: none;/*
             position: absolute;
-            width: 100vw;
-            margin:125px 0;
-            transition: 10s transform linear;*/
+            width: 400px;
+            margin:125px -200px;
+            transition: 10s transform linear;
         }
 
         .image4{
             position: absolute;
             width: 200px;
+            margin-top: -20px;
             margin-left: -50px;
         }
 
@@ -898,35 +895,36 @@ footer{
         }
 
         #form{
-            display: none;
-            /*display: flex;
-            flex-direction: row;
-            */
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
             }
         
         .paises{
+            padding: 0;
             font-size: 12px;
-            padding-left: 40px;
             flex-grow: 1;
             align-self: center;
             }
         
         input[type=email] {
-            align-self: center;
             flex-grow: 1;
-            height: auto;
             color: #d6d6d6;
             font-size: 30px;
             border: none;
+            align-self: center;
             }
         
         input[type=submit] {
+            padding: 0;
             font-size: 12px;
             align-self: center;
             flex-grow: 1;
-            padding: 20px;
             border: none;
-            background-color:var(--white);
+            color: var(--white);
+            background-color:var(--black);
             cursor: pointer;
             }
             footer{
