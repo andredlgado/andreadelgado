@@ -23,6 +23,7 @@
 body {
     background-color:var(--white);
     transition: background-color 1s ease;
+    margin: 0;
   }
  
 
@@ -669,6 +670,7 @@ footer{
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            margin-top: 200px;
           }
           
         .nav{
@@ -928,6 +930,9 @@ footer{
             cursor: pointer;
             }
             footer{
+                width: 100vw;
+                margin:0;
+                padding:0;
                 
                 }
 
