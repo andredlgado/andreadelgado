@@ -23,8 +23,6 @@
 body {
     background-color:var(--white);
     transition: background-color 1s ease;
-    margin: 0;
-    oveflow-x: hidden;
   }
  
 
@@ -310,8 +308,9 @@ section .inside div{
 
 }
 .image4{
+    width: 400px;
     position: absolute;
-    margin: -40px 0px;
+    margin: 20px -80px 0;
 
 }
 
@@ -671,6 +670,7 @@ footer{
             display: flex;
             flex-direction: column;
           }
+          
         .nav{
             width: 70vw;
             position: fixed;
@@ -828,15 +828,13 @@ footer{
         
         }
         
-        
+
         section{
-            display: none;
-            /*
-            width: 478px;
+            width: 260px;
             margin-left:0px;
             margin-top: 150px;
             position: absolute;
-            overflow: hidden;*/
+            overflow: hidden;
         }
 
         .overflow2{
@@ -855,16 +853,19 @@ footer{
         }
 
         .image2{
+            display: none;
+            /*
             position: absolute;
             width: 400px;
-            margin: 10px;
+            margin: 10px;*/
         }
 
         .image3{
+            display: none;/*
             position: absolute;
             width: 100vw;
             margin:125px 0;
-            transition: 10s transform linear;
+            transition: 10s transform linear;*/
         }
 
         .image4{
