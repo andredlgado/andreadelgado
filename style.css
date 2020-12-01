@@ -515,6 +515,46 @@ h1::after {
    margin-top: 400px;
    }
 
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.left{    
+    flex-grow: 1;
+    height: 100vh;
+    background-image: url("images/awake_1.jpg");
+}
+
+.txt{
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: 40px;
+    margin: 200px 400px;
+}
+
+.right{
+    flex-grow: 1;
+    background-image: url("images/awake_3.jpg");
+    height: 100vh;
+}
+
+.bottom{
+    flex-grow: 1;
+    background-image: url("images/awake_4.jpg");
+    height: 100vh;
+}
+
+.bottom:hover{
+    background-image: url("images/awake_5.jpg");
+    height: 100vh;
+}
+
+
 #form{
     display: flex;
     flex-direction: row;
