@@ -9,7 +9,7 @@ gsap.to('.scroll', {
         trigger: '.wrapper',
         start: '30% center',
         end: '30% center',
-        markers:true,    
+        /*markers:true,*/    
         scrub: 1,
         opacity: 0,
         toggleActions: 'restart pause reverse reset'
