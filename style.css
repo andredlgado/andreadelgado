@@ -1026,6 +1026,7 @@ footer{
                 
                 }
                 .menu-wrapper {
+                    position: fixed;
                     top: 0;
                     width: 20px;
                     height: 3px;
