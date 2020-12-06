@@ -66,7 +66,7 @@ scrollTrigger:{
     start: '-50% center',
     end: '-5% center',
     markers:true,    
-    scrub: 2,
+    scrub: 4,
     toggleActions: 'restart pause reverse reset'
  }
 })

@@ -331,10 +331,21 @@ section .inside div{
 }
 
 .image5{
-    height: 50vh;
+    width: 80vw;
     position: absolute;
+    margin: 30px -40px 0;
+    opacity: 0.5;
 
 }
+.image6{
+    width: 70vw;
+    position: absolute;
+    margin: -20px -60px 0;
+    opacity: 0.8;
+    
+
+}
+
 
 h1{
     font-size: 80px;
@@ -366,6 +377,35 @@ h1::after {
     transition: 300ms;
   }
 
+h2{
+  font-size: 80px;
+  color: var(--black);
+  position: absolute;
+  margin-top: -100px;
+  margin-left:240px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+h2:hover{
+    text-decoration: underline;
+    position: absolute;
+    z-index: 1;
+
+}
+
+h2:hover::after {
+    width: 100%;
+  }
+
+h2::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
 #other-side{
     font-size: 80px;
     color: var(--black);
@@ -414,6 +454,13 @@ h1::after {
     height: 100px;
     z-index: 4;
 }
+.number4{
+    position: absolute;
+    margin: -115px 450px;
+    height: 100px;
+    z-index: 10;
+}
+
 
 
 .button1{
