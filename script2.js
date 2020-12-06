@@ -60,6 +60,29 @@ scrollTrigger:{
  }
 })
 
+gsap.from('.anim6', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim6',
+    start: '-50% center',
+    end: '-5% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
+
+gsap.from('.anim7', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim7',
+    start: '-50% center',
+    end: '-5% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
+
+
 gsap.from('.anim5', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
 scrollTrigger:{
     trigger: '.anim5',
