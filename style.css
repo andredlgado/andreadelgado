@@ -747,6 +747,8 @@ footer{
         
         .nav-boton{
             display: block;
+            margin: 0;
+            padding-left: 30px;
         
         }
         
@@ -1022,5 +1024,58 @@ footer{
                 margin:0;
                 padding:0;
                 
-                }   
-
+                }
+                .menu-wrapper {
+                    top: 0;
+                    width: 20px;
+                    height: 3px;
+                    cursor: pointer;
+                  }
+                  
+                  .hamburger-menu,
+                  .hamburger-menu:after,
+                  .hamburger-menu:before {
+                    width: 20px;
+                    height: 3px;
+                  }
+                  
+                  .hamburger-menu {
+                    position: relative;
+                    transform: translateY(25px);
+                    background: var(--black);
+                    transition: all 0ms 300ms;
+                  }
+                  .hamburger-menu.animate {
+                    background: var(--white);
+                  }
+                  
+                  .hamburger-menu:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 7px;
+                    background: var(--black);
+                    transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+                  }
+                  
+                  .hamburger-menu:after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 7px;
+                    background: var(--black);
+                    transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+                  }
+                  
+                  .hamburger-menu.animate:after {
+                    top: 0;
+                    transform: rotate(45deg);
+                    transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+                  }
+                  
+                  .hamburger-menu.animate:before {
+                    bottom: 0;
+                    transform: rotate(-45deg);
+                    transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+                  }   
+}

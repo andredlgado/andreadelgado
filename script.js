@@ -33,3 +33,9 @@ $(window).scroll(function() {
    navegacion.classList.toggle('mostrar');
 
 });
+
+(function () {
+	$('.menu-wrapper').on('click', function() {
+		$('.hamburger-menu').toggleClass('animate');
+	})
+})();
