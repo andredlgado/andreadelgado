@@ -27,3 +27,9 @@ $(window).scroll(function() {
     });    
     
   }).scroll();
+
+  boton.addEventListener("click", () => {
+
+   navegacion.classList.toggle('mostrar');
+
+});

@@ -1,11 +1,16 @@
 *{
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
+    
     /*
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     */
 }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
 
 :root {
     --tomato: #ff6347;
@@ -39,6 +44,10 @@ body {
     display: flex;
 }
 
+.nav-boton{
+    display: none;
+
+}
 .nav-list{
     flex-grow: 1;
     padding-right: 40px;
@@ -50,11 +59,13 @@ body {
 
 .nav-list-item{
     padding-left: 40px;
+    /*flex-grow: 1;*/
 
 }
 
 
 .nav-list-item a{
+    display: block;
     align-self: center;
     color: var(--grey);
     text-decoration: none;
@@ -396,7 +407,8 @@ h1::after {
     z-index: 4;
 }
 
-.button{
+
+.button1{
     position: absolute;
     width: 150px;
     height: 50px;
@@ -409,7 +421,7 @@ h1::after {
     color: var(--pink);
 }
 
-.button:hover{
+.button1:hover{
     background-color: var(--tomato);
 }
 
@@ -624,6 +636,7 @@ footer{
             top: 0;
             display: flex;
         }
+        
         .scroll{
             font-size: 10px;
             float: left;
@@ -691,7 +704,7 @@ footer{
             letter-spacing: 45px;
             }
 
-        .button{
+        .button1{
             position: absolute;
             width: 150px;
             height: 50px;
@@ -712,11 +725,46 @@ footer{
             display: flex;
             flex-direction: column;
           }
-          
+         
         .nav{
             width: 70vw;
             position: fixed;
             top: 0;
+            display: flex;
+        }
+
+    
+        .nav-list{
+            flex-direction: column;
+            display: none;
+        }
+        
+        .nav-list-item{
+            flex-grow: 1;
+            padding: 0;
+        
+        }
+        
+        .nav-boton{
+            display: block;
+        
+        }
+        
+        .nav-list-item a{
+            display: block;
+            align-self: center;
+            color: var(--grey);
+            text-decoration: none;
+            letter-spacing: 3px;
+            font-size: 10px;
+        }
+        
+        .nav-list-item a:hover{
+            color: var(--green);
+            text-decoration: none;
+        }
+        
+        .mostrar{
             display: flex;
         }
         .scroll{
@@ -785,7 +833,7 @@ footer{
             letter-spacing: 20px;
             }
 
-        .button{
+        .button1{
             position: absolute;
             width: 150px;
             height: 50px;
@@ -974,11 +1022,5 @@ footer{
                 margin:0;
                 padding:0;
                 
-                }
+                }   
 
-
-    
-
-        
-    }
-    
