@@ -113,21 +113,16 @@ body {
     -webkit-text-stroke-color: var(--black);
 }
 
-.personal:hover .fill{
-    color: var(--black);
-    width: 100%;
-    height: 100%;
-    letter-spacing: 45px;
-}
 
 .fill{
     flex-grow: 1;
-    background-color: var(--aqua);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: var(--black);
-    height: 0%;
-    width: 0%;
-    transition: 2s all linear;
+    transition: transform 1s;
+    cursor: pointer;
+}
+.fill:hover{
+    transform: translateY(-10px);
 }
 
 .personal2{
@@ -144,21 +139,10 @@ body {
 
 .fill2{
     flex-grow: 1;
-    background-color: rgba(102, 205, 170, 0.3);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: var(--black);
-    height: 0%;
-    width: 0%;
-    transition: 2s all linear;
 
 }
-
-.personal2:hover .fill2{
-    color: var(--black);
-    width: 100%;
-    height: 100%;
-    letter-spacing: 45px;
-    }
 
 .scroll{
     font-size: 10px;
@@ -616,6 +600,7 @@ h2::after {
     font-size: 12px;
 }
 
+
 .grid-item:hover{
     transform: translateY(-10px);
 }
@@ -767,21 +752,14 @@ footer{
             -webkit-text-stroke-color: var(--black);
         }
 
-        .personal:hover .fill{
-            color: var(--black);
-            width: 100%;
-            height: 100%;
-            letter-spacing: 45px;
-        }
-
         .fill{
             flex-grow: 1;
-            background-color: var(--aqua);
             -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: var(--black);
-            height: 0%;
-            width: 0%;
-            transition: 2s all linear;
+            transition: transform 1s;
+        }
+        .fill:hover{
+            transform: translateY(-10px);
         }
 
         .personal2{

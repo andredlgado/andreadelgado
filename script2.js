@@ -115,8 +115,38 @@ scrollTrigger:{
  }
 })
 
+gsap.from('.anim11', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim11',
+    start: '-10% center',
+    end: '40% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
 
+gsap.from('.anim12', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim12',
+    start: '10% center',
+    end: '90% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
 
+gsap.to('.anim13', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim13',
+    start: '5% center',
+    end: '70% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
 
 gsap.from('.anim5', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
 scrollTrigger:{
@@ -130,9 +160,11 @@ scrollTrigger:{
 })
 
 
-
 var tl = gsap.timeline({defaults:{duration:1}})
 
 tl.from(".fill, .fill2", {y:-20, stagger: .6})
   .to(rule, {duration:1, cssRule: {scaleY:0}}, "-=2.2")
    
+
+
+
