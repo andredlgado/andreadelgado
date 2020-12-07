@@ -21,7 +21,7 @@ scrollTrigger:{
     trigger: '.anim1',
     start: '-50% center',
     end: '5% center',
-    markers:true,    
+    /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -32,7 +32,7 @@ scrollTrigger:{
     trigger: '.anim2',
     start: '-50% center',
     end: '-5% center',
-    markers:true,    
+     /*markers:true,*/      
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -43,7 +43,7 @@ scrollTrigger:{
     trigger: '.anim3',
     start: '-50% center',
     end: '-5% center',
-    markers:true,    
+    /*markers:true,*/     
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -54,7 +54,7 @@ scrollTrigger:{
     trigger: '.anim4',
     start: '-50% center',
     end: '-5% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 4,
     toggleActions: 'restart pause reverse reset'
  }
@@ -65,7 +65,7 @@ scrollTrigger:{
     trigger: '.anim6',
     start: '-50% center',
     end: '-5% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 4,
     toggleActions: 'restart pause reverse reset'
  }
@@ -76,7 +76,7 @@ scrollTrigger:{
     trigger: '.anim7',
     start: '-50% center',
     end: '-5% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -87,7 +87,7 @@ scrollTrigger:{
     trigger: '.anim8',
     start: '10% center',
     end: '30% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -98,7 +98,7 @@ scrollTrigger:{
     trigger: '.anim9',
     start: '-80% center',
     end: '-10% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -109,7 +109,7 @@ scrollTrigger:{
     trigger: '.anim10',
     start: '-10% center',
     end: '40% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -120,7 +120,7 @@ scrollTrigger:{
     trigger: '.anim11',
     start: '-10% center',
     end: '40% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -131,7 +131,7 @@ scrollTrigger:{
     trigger: '.anim12',
     start: '10% center',
     end: '90% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -142,7 +142,7 @@ scrollTrigger:{
     trigger: '.anim13',
     start: '5% center',
     end: '70% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
@@ -153,7 +153,7 @@ scrollTrigger:{
     trigger: '.anim5',
     start: '-50% center',
     end: '-5% center',
-    markers:true,    
+     /*markers:true,*/       
     scrub: 4,
     toggleActions: 'restart pause reverse reset'
  }
