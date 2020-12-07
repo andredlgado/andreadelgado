@@ -82,6 +82,41 @@ scrollTrigger:{
  }
 })
 
+gsap.from('.anim8', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim8',
+    start: '10% center',
+    end: '30% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
+
+gsap.from('.anim9', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim9',
+    start: '-80% center',
+    end: '-10% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
+
+gsap.from('.anim10', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
+scrollTrigger:{
+    trigger: '.anim10',
+    start: '-10% center',
+    end: '40% center',
+    markers:true,    
+    scrub: 2,
+    toggleActions: 'restart pause reverse reset'
+ }
+})
+
+
+
 
 gsap.from('.anim5', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
 scrollTrigger:{
