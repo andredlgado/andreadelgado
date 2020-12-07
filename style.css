@@ -537,22 +537,28 @@ h2::after {
     border: 3px solid black;
     grid-column: 2 / 4;
     grid-row: 1 / 3;
+    z-index: 80;
   }
 
   .two img{ 
-    width: 30%;
+    width: 40vw;
     padding: 100px 50px;
 
     }
 
   .three {
+    margin-top: 30%;
+    max-width: 100%;
     grid-column: 1;
     grid-row: 2 / 5;
     }
 
   .three img{
     width:150%;
+    flex-grow: 1;
     }
+
+
   .four {
     margin-bottom: 200px;
     width: 400px;
@@ -573,6 +579,13 @@ h2::after {
     grid-row: 3;
   }
 
+  /*.five{
+    max-width: 100%;
+    margin-top: 300px;
+    grid-column: 2;
+    grid-row: 4;
+    background-color: #66cdaa;
+  }*/
   .six {
     margin-top: 200px;
     grid-column: 3;
