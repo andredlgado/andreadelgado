@@ -219,7 +219,6 @@ body {
     margin-top: 240px;
 }
 
-
 .overflow{
     width: 1000px;
     height: 450px;
@@ -581,89 +580,6 @@ h2::after {
     background-color: var(--tomato);
 }
 
-.grilla{
-    display: grid;
-    max-width: 100%;
-    height: 100vh;
-    grid-template-columns: 1fr 1.2fr 1.5fr;
-    grid-auto-rows: minmax(100px, auto);
-    margin: 0;
-    padding:0;
-}
-
-.one {
-    grid-column: 1 / 2;
-    grid-row: 1;
-  }
-  .two { 
-    border: 3px solid black;
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
-    z-index: 80;
-  }
-
-  .two img{ 
-    width: 40vw;
-    padding: 100px 50px;
-
-    }
-
-  .three {
-    margin-top: 30%;
-    max-width: 100%;
-    grid-column: 1;
-    grid-row: 2 / 5;
-    }
-
-  .three img{
-    width:150%;
-    flex-grow: 1;
-    }
-
-
-  .four {
-    margin-bottom: 200px;
-    width: 400px;
-    font-size: 12px;
-    grid-column: 3;
-    grid-row: 3;
-  }
-
-  .four:hover{
-      color: var(--aqua);
-  }
-  .four2 {
-    width: 800px;
-    margin-left: 200px;
-    margin-top: 100px;
-    font-size: 12px;
-    grid-column: 3;
-    grid-row: 3;
-  }
-
-  /*.five{
-    max-width: 100%;
-    margin-top: 300px;
-    grid-column: 2;
-    grid-row: 4;
-    background-color: #66cdaa;
-  }*/
-  .six {
-    margin-top: 200px;
-    grid-column: 3;
-    grid-row: 4;
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .six img{
-      width: 100%;
-  }
-
-  .seven{
-   margin-top: 400px;
-   }
-
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -760,7 +676,7 @@ input[type=email] {
     color: #d6d6d6;
     /*-webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: var(--black);*/
-    font-size: 70px;
+    font-size: 50px;
     border: none;
     }
  
