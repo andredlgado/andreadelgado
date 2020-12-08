@@ -1,3 +1,17 @@
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 20)+"px; left: "+(e.pageX - 20)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+
 gsap.to('.scroll', {
     duration:3,
     y: "-20vh",
@@ -164,6 +178,8 @@ var tl = gsap.timeline({defaults:{duration:1}})
 
 tl.from(".fill, .fill2", {y:-20, stagger: .6})
   .to(rule, {duration:1, cssRule: {scaleY:0}}, "-=2.2")
+
+  
    
 
 

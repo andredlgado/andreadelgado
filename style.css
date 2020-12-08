@@ -29,8 +29,40 @@ body {
     background-color:var(--white);
     transition: background-color 1s ease;
     margin: 0;
+    height: 100vh;
+    cursor: none;
   }
- 
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid rgb(94, 93, 93);
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+.expand {
+    animation: cursorAnim3 .5s forwards;
+    border: 1px solid var(--aqua)
+} 
 
 .wrapper{
     height: 100vh;
@@ -56,6 +88,7 @@ body {
     justify-content: flex-end;
     align-content: center;
     list-style: none;
+    
 }
 
 .nav-list-item{
@@ -66,6 +99,7 @@ body {
 
 
 .nav-list-item a{
+    cursor: none;
     display: block;
     align-self: center;
     color: var(--grey);
@@ -119,7 +153,6 @@ body {
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: var(--black);
     transition: transform 1s;
-    cursor: pointer;
 }
 .fill:hover{
     transform: translateY(-10px);
@@ -492,6 +525,7 @@ h2::after {
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
+    cursor: none;
 }
 
 .button1:hover{
@@ -509,6 +543,8 @@ h2::after {
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
+    cursor: none;
+
 }
 
 .button2:hover{
@@ -526,6 +562,8 @@ h2::after {
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
+    cursor: none;
+
 }
 
 .button3:hover{
@@ -543,6 +581,8 @@ h2::after {
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
+    cursor: none;
+
 }
 .button4:hover{
     background-color: var(--tomato);
@@ -559,6 +599,8 @@ h2::after {
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
+    cursor: none;
+
 }
 
 .button5:hover{
@@ -575,6 +617,7 @@ h2::after {
     padding: 12px;
     text-decoration: none;
     color: var(--pink);
+    cursor: none;
 }
 .button6:hover{
     background-color: var(--tomato);
@@ -584,7 +627,6 @@ h2::after {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 1rem;
-    cursor: pointer;
     align-items: center;
 }
 .grid-item{
@@ -1163,7 +1205,6 @@ footer{
                     top: 0;
                     width: 20px;
                     height: 3px;
-                    cursor: pointer;
                   }
                   
                   .hamburger-menu,
