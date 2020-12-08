@@ -172,7 +172,7 @@ body {
     background-color: var(--yellow);
   }
   .color-green {
-    background-color: var(--green);
+    background-color: #66cdab91;
   }
   .color-tomato {
     background-color: var(--tomato);
@@ -565,7 +565,21 @@ h2::after {
 .button5:hover{
     background-color: var(--tomato);
 }
-
+.button6{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: var(--black);
+    text-align: center;
+    margin-top: 310px;
+    margin-left: 600px;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--pink);
+}
+.button6:hover{
+    background-color: var(--tomato);
+}
 
 .grilla{
     display: grid;
