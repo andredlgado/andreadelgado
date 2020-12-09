@@ -39,7 +39,7 @@ body {
   border: 1px solid rgb(94, 93, 93);
   border-radius: 50%;
   position: absolute;
-  transition-duration: 200ms;
+  transition-duration: 100ms;
   transition-timing-function: ease-out;
   animation: cursorAnim .5s infinite alternate;
   pointer-events: none;
@@ -347,7 +347,7 @@ section .inside div{
 }
 
 .image5{
-    width: 80vw;
+    width: 60vw;
     position: absolute;
     margin: 30px -40px 0;
     opacity: 0.5;
