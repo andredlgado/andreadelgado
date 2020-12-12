@@ -733,6 +733,19 @@ h2::after {
     transition: transform 1s;
     font-size: 12px;
 }
+grid-item7{
+    max-width: 1200px;
+    display: grid;
+    transition: transform 1s;
+    font-size: 12px;
+}
+
+.grid-item7:hover{
+    transform: translateY(-10px);
+}
+.grid-item7 img{
+    width: 60%;
+}
 
 
 .main{
@@ -929,6 +942,15 @@ footer{
         .grid-item6 video{
             width: 100%;
         }
+        .grid-item7{
+            display: grid;
+            transition: transform 1s;
+            font-size: 12px;
+            grid-column-end: span 1;
+        }
+        .grid-item7 img{
+            width: 100%;
+        }
        
        
     }
@@ -968,7 +990,17 @@ footer{
         }
         .grid-item5{
             display: none;
-        }      
+        }     
+        .grid-item7{
+            display: grid;
+            transition: transform 1s;
+            font-size: 12px;
+            grid-column-end: span 1;
+        }
+        .grid-item7 img{
+            width: 100%;
+        }
+        
 
         .cursor{
             display: none;
