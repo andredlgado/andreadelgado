@@ -727,6 +727,13 @@ h2::after {
     overflow: hidden;
 }
 
+.grid-item6{
+    max-width: 1200px;
+    display: grid;
+    transition: transform 1s;
+    font-size: 12px;
+}
+
 
 .main{
     width: 100vw;
@@ -912,11 +919,32 @@ footer{
         .grid-item5{
             display: none;
         }
+        .grid-item6{
+            max-width: 1200px;
+            display: grid;
+            transition: transform 1s;
+            font-size: 12px;
+        }
+
+        .grid-item6 video{
+            width: 100%;
+        }
        
        
     }
     
     @media only screen and (max-width: 479px){
+
+        .grid-item6{
+            max-width: 1200px;
+            display: grid;
+            transition: transform 1s;
+            font-size: 12px;
+        }
+
+        .grid-item6 video{
+            width: 100%;
+        }
 
         .grid-item2{
             display: grid;
