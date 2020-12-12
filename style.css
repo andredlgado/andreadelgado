@@ -668,7 +668,7 @@ h2::after {
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
     grid-gap: 1rem;
     align-items: center;
 }
@@ -878,9 +878,33 @@ footer{
             display: none;
         }
 
+        .grid-item2{
+            display: grid;
+            transition: transform 1s;
+            font-size: 12px;
+            grid-column-end: span 1;
+        }
+        .grid-item2 img{
+            width: 100%;
+        }
+       
+       
     }
     
     @media only screen and (max-width: 479px){
+
+        .grid-item2{
+            display: grid;
+            transition: transform 1s;
+            font-size: 12px;
+            grid-column-end: span 1;
+        }
+
+        .grid-item2 img{
+            width: 100%;
+        }
+       
+       
 
         .cursor{
             display: none;
