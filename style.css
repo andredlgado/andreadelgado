@@ -933,7 +933,7 @@ footer{
        
     }
     
-    @media only screen and (max-width: 375px){
+    @media only screen and (max-width: 479px){
 
         .grid-item6{
             max-width: 1200px;
