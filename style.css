@@ -363,7 +363,7 @@ section .inside div{
 .image6{
     width: 70vw;
     position: absolute;
-    margin: -20px -60px 0;
+    margin: -40px -60px 0;
     opacity: 0.8;
     
 
@@ -679,7 +679,6 @@ h2::after {
     font-size: 12px;
 }
 
-
 .grid-item:hover{
     transform: translateY(-10px);
 }
@@ -700,6 +699,21 @@ h2::after {
 
 .grid-item1:hover{
     transform: scale(2);
+}
+.grid-item2{
+    display: grid;
+    transition: transform 1s;
+    font-size: 12px;
+    grid-column-end: span 2;
+    overflow: hidden;
+}
+
+.grid-item3{
+    display: grid;
+    transition: transform 1s;
+    font-size: 12px;
+    grid-column-end: span 2;
+    padding-top: 40px;
 }
 
 .main{
@@ -796,7 +810,11 @@ footer{
     color: var(--aqua);
     text-decoration: none;
     }
-    
+   
+ #myvideo2{
+     width: 100%;
+
+ }   
     @media only screen and (max-width: 767px){
 
         .header{
