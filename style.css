@@ -519,7 +519,35 @@ h2::after {
     background: black;
     transition: 300ms;
   }
+  .about{
+    font-size: 80px;
+    color: var(--black);
+    position: absolute;
+    margin-top: 20px;
+    margin-left:180px;
+    z-index: 1;
+    text-decoration: none;
+}
 
+.about:hover{
+    text-decoration: underline;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.about:hover::after {
+    width: 100%;
+  }
+
+.about::after {
+    content: '';
+    width: 0px;
+    height: 3px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
   .number{
     position: absolute;
     margin: -120px 450px;
