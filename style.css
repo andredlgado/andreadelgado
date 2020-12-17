@@ -131,6 +131,7 @@ body {
 
 .header{
     height: 50vh;
+    width: 80%;
 }
 
 .personal{
@@ -899,7 +900,6 @@ footer{
         .personal{
             display: flex;
             color: var(--white);
-            width: 90%;
             margin-top: 110px;
             padding-left: 40px;
             text-align: left;
@@ -913,7 +913,6 @@ footer{
         .personal2{
             display: flex;
             color: var(--white);
-            width: 90vw;
             margin-top: 50px;
             padding-left: 80px;
             text-align: left;
@@ -1100,6 +1099,7 @@ footer{
             display: flex;
             color: var(--white);
             margin-top: 200px;
+            width: 70%;
             padding-left: 40px;
             text-align: left;
             font-size:36px;
@@ -1112,6 +1112,7 @@ footer{
         .personal2{
             display: flex;
             color: var(--white);
+            width: 70%;
             margin-top: 10px;
             padding-left: 36px;
             text-align: left;
