@@ -177,12 +177,12 @@ body {
 
 }
 
-.scroll{
+#scroll{
+    position: absolute;
     font-size: 10px;
     float: left;
-    margin-left: -100px;
-    margin-top: 200px;
     letter-spacing: 3px;
+    padding: 700px 40px;
 }
 
 .panel {
@@ -889,13 +889,14 @@ footer{
             display: flex;
         }
         
-        .scroll{
+        #scroll{
             font-size: 10px;
             float: left;
-            margin-left: -40px;
-            padding-top: 200px;
+            padding-left: 3vw;
+            padding-top: 60vh;
             letter-spacing: 3px;
         }
+
 
         .personal{
             display: flex;
@@ -1090,12 +1091,12 @@ footer{
         .mostrar{
             display: flex;
         }
-        .scroll{
+
+        #scroll{
+            position: absolute;
             font-size: 10px;
-            float: left;
-            min-width: 20%;
-            margin: -80px 0 0 0;
             letter-spacing: 3px;
+            padding: 600px 0 0 30px;
         }
 
         .personal{
@@ -1527,4 +1528,16 @@ footer{
                     transform: rotate(-45deg);
                     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
                   }   
+}
+
+@media (min-width: 1600px){
+
+#scroll{
+        position: absolute;
+        font-size: 10px;
+        float: left;
+        letter-spacing: 3px;
+        padding: 900px 40px;
+    }
+}
 }

@@ -12,7 +12,8 @@ document.addEventListener('click', () => {
     }, 500)
 })
 
-gsap.to('.scroll', {
+
+gsap.to('#scroll', {
     duration:3,
     y: "-20vh",
     ease: "none",
@@ -20,10 +21,10 @@ gsap.to('.scroll', {
     stagger: 1,
     scrollTrigger:{
         /*scroller: ".containerScroll",*/
-        trigger: '.scroll',
-        start: '30% center',
-        end: '30% center',
-        /*markers:true,*/   
+        trigger: '#scroll',
+        start: '50% center',
+        end: '60% center',
+        markers:true,   
         scrub: 1,
         opacity: 0,
         toggleActions: 'restart pause reverse reset'
