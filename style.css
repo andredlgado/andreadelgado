@@ -132,12 +132,12 @@ body {
 .header{
     height: 50vh;
     width: 80%;
+    margin: auto;
 }
 
 .personal{
     display: flex;
     color: var(--white);
-    width: 100vw;
     height: 100px;
     margin-top: 200px;
     padding-left: 40px;
@@ -162,7 +162,6 @@ body {
 .personal2{
     display: flex;
     color: var(--white);
-    width: 100vw;
     height: 100px;
     margin-top: 50px;
     padding-left: 80px;
@@ -779,7 +778,6 @@ grid-item7{
 
 
 .main{
-    width: 100vw;
     display: flex;
     flex-direction: column;
 
@@ -877,7 +875,7 @@ footer{
      width: 100%;
 
  }   
-    @media only screen and (max-width: 767px){
+    @media (max-width: 767px) {
 
         .header{
             height: 80%;
@@ -902,7 +900,7 @@ footer{
             display: flex;
             color: var(--white);
             margin-top: 110px;
-            padding-left: 40px;
+            padding-left: 0;
             text-align: left;
             font-size: 80px;
             letter-spacing: 40px;
@@ -915,7 +913,7 @@ footer{
             display: flex;
             color: var(--white);
             margin-top: 50px;
-            padding-left: 80px;
+            padding-left: 0;
             text-align: left;
             font-size: 80px;
             letter-spacing: 40px;
@@ -983,7 +981,7 @@ footer{
        
     }
     
-    @media only screen and (max-width: 479px){
+    @media (max-width: 479px){
 
         .grid-item6{
             max-width: 1200px;
@@ -1100,8 +1098,6 @@ footer{
             display: flex;
             color: var(--white);
             margin-top: 200px;
-            width: 70%;
-            padding-left: 40px;
             text-align: left;
             font-size:36px;
             letter-spacing: 15px;
@@ -1113,9 +1109,7 @@ footer{
         .personal2{
             display: flex;
             color: var(--white);
-            width: 70%;
             margin-top: 10px;
-            padding-left: 36px;
             text-align: left;
             font-size: 36px;
             letter-spacing: 15px;
@@ -1150,6 +1144,7 @@ footer{
             background-color: var(--black);
             text-align: center;
             margin: 100px;
+            margin-right: 0;
             padding: 12px;
             text-decoration: none;
             color: var(--pink);
@@ -1314,7 +1309,7 @@ footer{
             font-size: 12px;
             color: var(--black);
             background-color: var(--white);
-            margin:0 255px;
+            margin: 0;
         }
         
 
@@ -1362,6 +1357,7 @@ footer{
         }
 
         .image2{
+            display: none;
             position: relative;
             width: 400px;
             margin: 10px;
@@ -1369,8 +1365,9 @@ footer{
 
         .image3{
             position: absolute;
-            width: 400px;
-            margin:125px -200px;
+            width: 100%;
+            max-width: 375px;
+            margin: 125px 0;
             transition: 10s transform linear;
         }
 
