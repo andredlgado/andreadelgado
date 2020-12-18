@@ -982,6 +982,10 @@ footer{
     
     @media (max-width: 479px){
 
+        .header{
+            margin: auto;
+        }
+
         .grid-item6{
             max-width: 1200px;
             display: grid;
