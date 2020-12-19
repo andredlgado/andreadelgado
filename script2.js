@@ -24,12 +24,13 @@ gsap.to('#scroll', {
         trigger: '#scroll',
         start: '50% center',
         end: '60% center',
-        markers:true,   
+        /*markers:true,*/   
         scrub: 1,
         opacity: 0,
         toggleActions: 'restart pause reverse reset'
     }
 })
+
 
 gsap.from('.anim1', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
 scrollTrigger:{
