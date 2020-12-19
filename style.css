@@ -997,7 +997,10 @@ footer{
             text-decoration: none;
             color: var(--pink);
         }
-        
+        .grid-container2{
+            display: none;
+        }
+
         .grid-item2{
             display: grid;
             transition: transform 1s;
@@ -1294,13 +1297,6 @@ footer{
         }
 
         .grid-container{
-            max-width: 414px;
-            display: grid;
-            transition: transform 1s;
-            font-size: 12px;
-        }
-
-        .grid-container2{
             max-width: 414px;
             display: grid;
             transition: transform 1s;
@@ -1754,6 +1750,10 @@ footer{
             z-index: 10;
         }
 
+        .grid-container2{
+            display: none;
+        }
+
         #other-side{
             font-size: 80px;
             color: var(--black);
@@ -1904,15 +1904,6 @@ footer{
         transition: transform 1s;
         font-size: 12px;
     }
-
-    .grid-container2{
-        max-width: 375px;
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
-
-
     .grid-item{
         max-width: 375px;
         display: grid;
