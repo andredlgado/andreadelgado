@@ -1861,7 +1861,7 @@ footer{
                   }   
 }
 
-@media (max-width: 400px){
+@media (max-width: 320px){
 
     .header{
         display: none;
@@ -1899,20 +1899,20 @@ footer{
         transform: translateY(-10px);
     }
     .grid-container{
-        max-width: 375px;
+        max-width: 320px;
         display: grid;
         transition: transform 1s;
         font-size: 12px;
     }
     .grid-item{
-        max-width: 375px;
+        max-width: 320px;
         display: grid;
         transition: transform 1s;
         font-size: 12px;
     }
 
     .grid-item6{
-        max-width: 375px;
+        max-width: 320px;
         display: grid;
         transition: transform 1s;
         font-size: 12px;
@@ -1920,7 +1920,7 @@ footer{
 
     .grid-item2{
         display: grid;
-        max-width: 375px;
+        max-width: 320px;
         transition: transform 1s;
         font-size: 12px;
         grid-column-end: span 1;
