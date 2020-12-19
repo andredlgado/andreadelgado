@@ -789,11 +789,6 @@ h2::after {
 .grid-item7 img{
     width: 60%;
 }
-.grid-item8{
-
-}
-
-
 .main{
     display: flex;
     flex-direction: column;    
