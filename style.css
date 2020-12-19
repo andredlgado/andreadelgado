@@ -873,9 +873,16 @@ footer{
     }
    
  #myvideo2{
-     width: 100%;
+     width: 100%; 
+ }
 
- }   
+ .mycat1{
+    width: 500px; 
+    height: auto; 
+    margin-top: 100px; 
+ }
+ 
+
     @media (max-width: 768px) {
 
         .header{
@@ -1269,7 +1276,8 @@ footer{
             grid-column-end: span 1;
         }
         .grid-item4 img{
-            width: 50%;
+            width: 70%;
+            margin: auto;
         }
         .grid-item5{
             display: none;
