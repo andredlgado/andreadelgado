@@ -764,7 +764,7 @@ h2::after {
     transition: transform 1s;
     font-size: 12px;
 }
-grid-item7{
+.grid-item7{
     max-width: 1200px;
     display: grid;
     transition: transform 1s;
@@ -777,17 +777,14 @@ grid-item7{
 .grid-item7 img{
     width: 60%;
 }
+.grid-item8{
+
+}
+
 
 .main{
     display: flex;
-    flex-direction: column;
-
-    
-}
-.left{    
-    flex-grow: 1;
-    height: 100vh;
-    background-image: url("images/awake_1.jpg");
+    flex-direction: column;    
 }
 
 .txt{
@@ -798,24 +795,6 @@ grid-item7{
     letter-spacing: 40px;
     margin: 200px 400px;
 }
-
-.right{
-    flex-grow: 1;
-    background-image: url("images/awake_3.jpg");
-    height: 100vh;
-}
-
-.bottom{
-    flex-grow: 1;
-    background-image: url("images/awake_4.jpg");
-    height: 100vh;
-}
-
-.bottom:hover{
-    background-image: url("images/awake_5.jpg");
-    height: 100vh;
-}
-
 
 #form{
     display: flex;
@@ -926,6 +905,15 @@ footer{
             font-size: 50px;
             letter-spacing: 25px;
         }  
+
+        .txt{
+            color: var(--white);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            line-height: 70px;
+            letter-spacing: 40px;
+            margin: 100px 100px;
+        }
         .button1{
             position: absolute;
             width: 150px;
@@ -1028,6 +1016,10 @@ footer{
         }
         .grid-item7 img{
             width: 100%;
+        }
+        .grid-item8{
+            width: auto;
+            transition: none;
         }
         .overflow{
             max-width: 500px;
@@ -1291,7 +1283,9 @@ footer{
         .grid-item7 img{
             width: 100%;
         }
-        
+        .grid-item8{
+            display: none;
+        }
 
         .cursor{
             display: none;
@@ -1696,7 +1690,14 @@ footer{
             z-index: 1;
             text-decoration: none;
         }
-
+        .txt{
+            color: var(--white);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            line-height: 70px;
+            letter-spacing: 40px;
+            margin: 100px 100px;
+        }
         #form{
             display: flex;
             flex-direction: column;
@@ -1798,5 +1799,12 @@ footer{
         letter-spacing: 3px;
         padding: 900px 40px;
     }
-}
+    .grid-item8{
+        width: auto;
+        transition: 10s transform linear;
+    }
+    
+    .grid-item8:hover{
+        transform: rotate(360deg);
+    }
 }
