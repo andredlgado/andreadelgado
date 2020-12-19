@@ -1258,7 +1258,7 @@ footer{
        
     }
     
-    @media (max-width: 479px){
+    @media (max-width: 414px){
 
         .header{
             display: none;
@@ -1311,7 +1311,7 @@ footer{
         }
 
         .grid-item6{
-            max-width: 1200px;
+            max-width: 414px;
             display: grid;
             transition: transform 1s;
             font-size: 12px;
@@ -1860,7 +1860,7 @@ footer{
                     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
                   }   
 }
-
+/*
 @media (max-width: 320px){
 
     .header{
@@ -1925,70 +1925,4 @@ footer{
         font-size: 12px;
         grid-column-end: span 1;
     }
- }
-
- @media (max-width: 595px){
-
-    .header{
-        display: none;
-    }
-
-    .header_mobile{
-        max-width: 595px;
-        display: flex;
-        color: var(--white);
-        margin-left: 20px;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: var(--black);
-    }
-
-    .personal_mobile{
-        max-width: 595px;
-        display: flex;
-        flex-wrap: wrap;
-        color: var(--white);
-        margin-top: 50px;
-        margin-left: 20px;
-        text-align: left;
-        font-size:80px;
-        letter-spacing: 20px;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: var(--black);
-    }
-    .fill_mobile{
-        flex-grow: 1;
-        -webkit-text-stroke-width: 0.5px;
-        -webkit-text-stroke-color: var(--black);
-        transition: transform 1s;
-    }
-    .fill_mobile:hover{
-        transform: translateY(-10px);
-    }
-    .grid-container{
-        max-width: 595px;
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
-    .grid-item{
-        max-width: 595px
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
-
-    .grid-item6{
-        max-width: 595px;
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
-
-    .grid-item2{
-        display: grid;
-        max-width: 595px;
-        transition: transform 1s;
-        font-size: 12px;
-        grid-column-end: span 1;
-    }
- }
+ }*/
