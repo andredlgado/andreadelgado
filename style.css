@@ -1298,8 +1298,8 @@ footer{
 
         .grid-container{
             display: grid;
+            grid-template-columns: none;
             transition: transform 1s;
-            font-size: 12px;
         }
 
         .grid-item{
