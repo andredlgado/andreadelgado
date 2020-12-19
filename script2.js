@@ -31,6 +31,10 @@ gsap.to('#scroll', {
     }
 })
 
+//if (window.matchMedia("(min-width: 400px)").matches) {
+//
+//}
+
 
 gsap.from('.anim1', {opacity:0, duration:2, y:-70, ease: 'Power2.easeInOut', stagger:0.1,  
 scrollTrigger:{
