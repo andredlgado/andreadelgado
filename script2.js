@@ -39,7 +39,7 @@ scrollTrigger:{
     trigger: '.anim0',
     start: '70% center',
     end: '80% center',
-    markers:true,       
+   /* markers:true,*/       
     scrub: 2,
     toggleActions: 'restart pause reverse reset'
  }
