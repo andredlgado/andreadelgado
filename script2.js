@@ -176,10 +176,10 @@ scrollTrigger:{
 })
 
 
-var tl = gsap.timeline({defaults:{duration:1}})
+var tl = gsap.timeline({defaults:{duration:.5}})
 
-tl.from(".fill, .fill2", {y:-20, stagger: .6})
-  .to(rule, {duration:1, cssRule: {scaleY:0}}, "-=2.2")
+tl.from(".fill, .fill2", {y:-40, stagger: .2})
+  .to(rule, {duration:0.1, cssRule: {scaleY:0}}, "-=1.2")
 
   
    

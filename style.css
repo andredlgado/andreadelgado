@@ -876,14 +876,15 @@ footer{
      width: 100%;
 
  }   
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
 
         .header{
-            height: 80%;
+            height: 70vh;
+            margin: auto;
         }
         
         .nav{
-            width: 90%;
+            max-width: 768px;
             position: fixed;
             top: 0;
             display: flex;
@@ -893,7 +894,7 @@ footer{
             font-size: 10px;
             float: left;
             padding-left: 3vw;
-            padding-top: 60vh;
+            padding-top: 80vh;
             letter-spacing: 3px;
         }
 
@@ -901,8 +902,7 @@ footer{
         .personal{
             display: flex;
             color: var(--white);
-            margin-top: 110px;
-            padding-left: 0;
+            margin: 0;
             text-align: left;
             font-size: 50px;
             letter-spacing: 25px;
@@ -914,14 +914,11 @@ footer{
         .personal2{
             display: flex;
             color: var(--white);
-            margin-top: 50px;
-            padding-left: 0;
+            margin: 0;
             text-align: left;
             font-size: 50px;
             letter-spacing: 25px;
         }  
-
-    
         .button1{
             position: absolute;
             width: 150px;
@@ -929,7 +926,53 @@ footer{
             background-color: var(--black);
             text-align: center;
             margin-top: 210px;
-            margin-left: 600px;
+            margin-left: 400px;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
+        .button2{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 270px;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
+        .button3{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin:20px ;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
+
+        .button4{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin:10px ;
+            padding: 12px;
+            text-decoration: none;
+            color: var(--pink);
+        }
+        .button6{
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: var(--black);
+            text-align: center;
+            margin:10px ;
             padding: 12px;
             text-decoration: none;
             color: var(--pink);
@@ -979,7 +1022,215 @@ footer{
         .grid-item7 img{
             width: 100%;
         }
-       
+        .overflow{
+            max-width: 500px;
+            height: 500px;
+            border: 2px solid var(--black);
+            overflow: hidden;
+            margin-top:-200px;
+        }
+        .image1{
+            position: absolute;
+            max-width: 450px;
+            margin-left: -50px;
+            margin-top: 20px;
+        }
+        #other-side{
+            font-size: 80px;
+            color: var(--black);
+            position: absolute;
+            z-index: 1;
+            text-decoration: none;
+            margin-top: -400px;
+
+        }
+        h1{
+            font-size: 80px;
+            color: var(--black);
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 20px;
+            z-index: 1;
+            text-decoration: none;
+        }
+        h2{
+            font-size: 80px;
+            color: var(--black);
+            position: absolute;
+            margin-top: -400px;
+            margin-left: 135px;
+            z-index: 1;
+            text-decoration: none;
+          }
+
+        h3{
+          font-size: 80px;
+          color: var(--black);
+          position: absolute;
+          margin-top: 0;
+          margin-left: 280px;
+          z-index: 10;
+          text-decoration: none;
+        }
+        h4{
+            font-size: 80px;
+            color: var(--black);
+            position: absolute;
+            margin-top: 100px;
+            margin-left: 140px;
+            z-index: 10;
+            text-decoration: none;
+          }
+
+        .hijo p{
+            width: 250px;
+            font-size: 12px;
+            color: var(--black);
+            background-color: var(--white);
+            margin-left: 10px;
+            margin-top: 80px;
+        }
+
+        .hijo .p2{
+            width: 250px;
+            font-size: 12px;
+            color: var(--black);
+            background-color: var(--white);
+            margin-left: 10px;
+            margin-top: -20px;
+        }
+
+        .hijo .p3{
+            width: 50px;
+            font-size: 12px;
+            color: var(--black);
+            background-color: var(--white);
+            margin-left: 400px;
+            margin-top: 60px;
+        }
+
+        .hijo .p4{
+            width: 235px;
+            font-size: 12px;
+            color: var(--black);
+            background-color: var(--white);
+            margin-left: 10px;
+            margin-top: -140px;
+
+        }
+        
+        section{
+            width: 500px;
+            margin-left:0px;
+            margin-top: 250px;
+            position: absolute;
+            overflow: hidden;
+        }
+        
+        .overflow2{
+            max-width: 500px;
+            height: 500px;
+            border: 2px solid var(--black);
+            overflow: hidden;
+            margin-top:-300px;
+        }
+        .overflow3{
+            max-width: 500px;
+            height: 500px;
+            border: 2px solid var(--black);
+            overflow: hidden;
+            margin-top:-200px;
+        }
+        .mycat_m{
+            display:block;
+        }
+
+        .image2{
+            display: none;
+            /*
+            position: absolute;
+            width: 450px;
+            margin:-25px;*/
+        }
+        .image3{
+            position: absolute;
+            width: 100%;
+            max-width: 475px;
+            margin-top: -20px;
+            transition: 10s transform linear;
+        }
+        .number{
+            position: absolute;
+            margin:-150px 0 0 350px;
+            height: 100px;
+            z-index: 10;
+        }
+        .number2{
+            position: absolute;
+            margin:-50px 0 0 315px;
+            height: 100px;
+            z-index: 10;
+        }
+        .number4{
+            position: absolute;
+            margin:150px 0 0 200px;
+            height: 100px;
+            z-index: 10;
+        }
+        .number5{
+            position: absolute;
+            margin:-400px 0 0 0;
+            height: 100px;
+            z-index: 10;
+        }
+        .number6{
+            position: absolute;
+            margin:150px 0 0 20px;
+            height: 100px;
+            z-index: 10;
+        }
+        #form{
+            display: flex;
+            max-width: 700px;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            margin: auto;
+            }
+        
+        .paises{
+            flex-grow: 0;
+            padding: 0;
+            font-size: 12px;
+            align-self: center;
+            margin-bottom: 100px;
+            }
+        
+        input[type=email] {
+            flex-grow: 0;
+            color: #d6d6d6;
+            font-size: 25px;
+            border: none;
+            align-self: center;
+            margin-bottom: 100px;
+            }
+        
+        input[type=submit] {
+            flex-grow: 0;
+            padding: 0;
+            font-size: 12px;
+            align-self: center;
+            border: none;
+            color: var(--black);
+            cursor: pointer;
+            }
+
+        footer{
+            width: 100%;
+            margin-top:-200px;
+            padding:0;
+            }
+
        
     }
     
