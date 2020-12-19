@@ -709,6 +709,12 @@ h2::after {
     grid-gap: 1rem;
     align-items: center;
 }
+.grid-container3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 2fr));
+    grid-gap: 1rem;
+    align-items: center;
+}
 .grid-item{
     max-width: 1200px;
     display: grid;
@@ -800,6 +806,16 @@ h2::after {
     line-height: 70px;
     letter-spacing: 40px;
     margin: 200px 400px;
+}
+.txt2{
+    width: 600px;
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 70px;
+    letter-spacing: 10px;
+    margin: 0;
+    padding-left: 30px;
 }
 
 #form{
@@ -939,6 +955,17 @@ footer{
             letter-spacing: 40px;
             margin: 100px 100px;
         }
+
+        .txt2{
+            color: var(--white);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 70px;
+            letter-spacing: 20px;
+            margin: 0;
+            padding-left: 30px;
+        }
+
         .button1{
             position: absolute;
             width: 150px;
@@ -1301,6 +1328,11 @@ footer{
             grid-template-columns: none;
             transition: transform 1s;
         }
+        .grid-container3{
+            display: grid;
+            grid-template-columns: none;
+            transition: transform 1s;
+        }
 
         .grid-item{
             display: grid;
@@ -1322,7 +1354,7 @@ footer{
             display: grid;
             transition: transform 1s;
             font-size: 12px;
-            grid-column-end: span 1;
+            grid-column-end: none;
         }
 
         .grid-item2 img{
@@ -1333,7 +1365,7 @@ footer{
             display: grid;
             transition: transform 1s;
             font-size: 12px;
-            grid-column-end: span 1;
+            grid-column-end: none;
         }
         .grid-item4 img{
             width: 70%;
@@ -1346,7 +1378,7 @@ footer{
             display: grid;
             transition: transform 1s;
             font-size: 12px;
-            grid-column-end: span 1;
+            grid-column-end: none;
         }
         .grid-item7 img{
             width: 100%;
@@ -1763,8 +1795,20 @@ footer{
             font-size: 30px;
             line-height: 70px;
             letter-spacing: 40px;
-            margin: 100px 100px;
+            margin: 0;
+            padding-left: 30px;
         }
+
+        .txt2{
+            color: var(--white);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            line-height: 30px;
+            letter-spacing: 20px;
+            margin: 0;
+            padding-left: 10px;
+        }
+
         #form{
             display: flex;
             flex-direction: column;
@@ -1856,13 +1900,11 @@ footer{
                     transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
                   }   
 }
-/*
-@media (max-width: 320px){
 
+@media (max-width: 320px){
     .header{
         display: none;
     }
-
     .header_mobile{
         max-width: 300px;
         display: flex;
@@ -1871,7 +1913,6 @@ footer{
         -webkit-text-stroke-width: 0.5px;
         -webkit-text-stroke-color: var(--black);
     }
-
     .personal_mobile{
         max-width: 300px;
         display: flex;
@@ -1894,31 +1935,5 @@ footer{
     .fill_mobile:hover{
         transform: translateY(-10px);
     }
-    .grid-container{
-        max-width: 320px;
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
-    .grid-item{
-        max-width: 320px;
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
 
-    .grid-item6{
-        max-width: 320px;
-        display: grid;
-        transition: transform 1s;
-        font-size: 12px;
-    }
-
-    .grid-item2{
-        display: grid;
-        max-width: 320px;
-        transition: transform 1s;
-        font-size: 12px;
-        grid-column-end: span 1;
-    }
- }*/
+ }
