@@ -1236,7 +1236,7 @@ footer{
     @media (max-width: 479px){
 
         .header{
-            margin: auto;
+            display: none;
         }
 
         .grid-item6{
@@ -1356,6 +1356,7 @@ footer{
             display: flex;
             color: var(--white);
             margin-top: 200px;
+            margin-left: 0;
             text-align: left;
             font-size:36px;
             letter-spacing: 15px;
@@ -1368,6 +1369,7 @@ footer{
             display: flex;
             color: var(--white);
             margin-top: 10px;
+            margin-left: 0;
             text-align: left;
             font-size: 36px;
             letter-spacing: 15px;

@@ -22,8 +22,8 @@ gsap.to('#scroll', {
     scrollTrigger:{
         /*scroller: ".containerScroll",*/
         trigger: '#scroll',
-        start: '50% center',
-        end: '60% center',
+        start: '30% center',
+        end: '30% center',
         /*markers:true,*/   
         scrub: 1,
         opacity: 0,
