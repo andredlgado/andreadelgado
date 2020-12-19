@@ -866,6 +866,25 @@ footer{
     height: auto; 
     margin-top: 100px; 
  }
+
+@media (min-width: 1600px){
+
+    #scroll{
+            position: absolute;
+            font-size: 10px;
+            float: left;
+            letter-spacing: 3px;
+            padding: 900px 40px;
+        }
+        .grid-item8{
+            width: auto;
+            transition: 10s transform linear;
+        }
+        
+        .grid-item8:hover{
+            transform: rotate(360deg);
+        }
+    }
  
 
     @media (max-width: 768px) {
@@ -1267,13 +1286,13 @@ footer{
             -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: var(--black);
         }
-        .fill{
+        .fill_mobile{
             flex-grow: 1;
             -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: var(--black);
             transition: transform 1s;
         }
-        .fill:hover{
+        .fill_mobile:hover{
             transform: translateY(-10px);
         }
 
@@ -1827,21 +1846,40 @@ footer{
                   }   
 }
 
-@media (min-width: 1600px){
+@media (max-width: 400px){
 
-#scroll{
-        position: absolute;
-        font-size: 10px;
-        float: left;
-        letter-spacing: 3px;
-        padding: 900px 40px;
+    .header{
+        display: none;
     }
-    .grid-item8{
-        width: auto;
-        transition: 10s transform linear;
+
+    .header_mobile{
+        max-width: 300px;
+        display: flex;
+        color: var(--white);
+        margin-left: 20px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: var(--black);
     }
-    
-    .grid-item8:hover{
-        transform: rotate(360deg);
+
+    .personal_mobile{
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        color: var(--white);
+        margin-top: 50px;
+        margin-left: 20px;
+        text-align: left;
+        font-size:80px;
+        letter-spacing: 20px;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: var(--black);
     }
-}
+    .fill_mobile{
+        flex-grow: 1;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: var(--black);
+        transition: transform 1s;
+    }
+    .fill_mobile:hover{
+        transform: translateY(-10px);
+    }
