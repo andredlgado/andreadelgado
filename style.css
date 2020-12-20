@@ -554,6 +554,27 @@ h2::after {
                 width: 100%;
               }  
 
+              h8{
+                font-size: 70px;
+                font-weight: bold;
+                color: var(--black);
+                z-index: 1;
+                text-decoration: none;
+                padding-left: 30px;
+                margin-top: 50px;
+              }
+              
+            h8:hover{
+                text-decoration: underline;
+                z-index: 1;
+            
+            }
+            
+            h8:hover::after {
+                width: 100%;
+              }  
+              
+
              ol{
                  margin-left: 15px;
              } 
@@ -904,6 +925,8 @@ footer{
 .footer-list{
     display: flex;
     background-color: var(--black);
+    margin: 0;
+    padding: 0;
     }
 
  .footer-list-item{
