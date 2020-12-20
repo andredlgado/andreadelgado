@@ -498,6 +498,75 @@ h2::after {
           background: black;
           transition: 300ms;
         }
+
+        h5{
+            font-size: 80px;
+            color: var(--black);
+            z-index: 1;
+            text-decoration: none;
+            padding-left: 30px;
+            margin-top: -300px;
+          }
+          
+          h5:hover{
+              text-decoration: underline;
+              z-index: 1;
+          
+          }
+          
+          h5:hover::after {
+              width: 100%;
+            }
+            h6{
+                font-size: 50px;
+                color: var(--black);
+                z-index: 1;
+                text-decoration: none;
+                padding-left: 30px;
+                margin-top: -300px;
+              }
+              
+              h6:hover{
+                  text-decoration: underline;
+                  z-index: 1;
+              
+              }
+              
+              h6:hover::after {
+                  width: 100%;
+                }  
+                
+            h7{
+                font-size: 50px;
+                font-weight: bold;
+                color: var(--black);
+                z-index: 1;
+                text-decoration: none;
+                padding-left: 30px;
+              }
+              
+            h7:hover{
+                text-decoration: underline;
+                z-index: 1;
+            
+            }
+            
+            h7:hover::after {
+                width: 100%;
+              }  
+
+             ol{
+                 margin-left: 15px;
+             } 
+             .new-list{
+                 font-size: 13px;
+                 margin-left: -10px;
+            } 
+            .new-list_item{
+                margin-left: 15px;
+                line-height: 25px;
+
+            }
       
 #other-side{
     font-size: 80px;
@@ -528,36 +597,7 @@ h2::after {
     background: black;
     transition: 300ms;
   }
-  .about{
-    font-size: 80px;
-    color: var(--black);
-    position: absolute;
-    margin-top: 20px;
-    margin-left:180px;
-    z-index: 1;
-    text-decoration: none;
-}
-
-.about:hover{
-    text-decoration: underline;
-    position: absolute;
-    z-index: 1;
-
-}
-
-.about:hover::after {
-    width: 100%;
-  }
-
-.about::after {
-    content: '';
-    width: 0px;
-    height: 3px;
-    display: block;
-    background: black;
-    transition: 300ms;
-  }
-  .number{
+    .number{
     position: absolute;
     margin: -120px 450px;
     height: 100px;
@@ -1634,6 +1674,17 @@ footer{
                       background: black;
                       transition: 300ms;
                     }
+                    h5{
+                        font-size: 40px;
+                        color: var(--black);
+                        z-index: 1;
+                        text-decoration: none;
+                        margin-top: -50px;
+                      }
+                      
+                     
+                     
+                      
         .hijo p{
             width: 170px;
             font-size: 12px;
@@ -1805,12 +1856,12 @@ footer{
         }
 
         #form{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            align-content: center;
-            }
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        }
+    
         .paises{
             flex-grow: 0;
             padding: 0;
