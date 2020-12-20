@@ -31,6 +31,25 @@ gsap.to('#scroll', {
     }
 })
 
+
+//gsap.to('.blob', {
+//    duration:3,
+//    y: "-20vh",
+//    ease: "none",
+//    opacity: 0,
+//    stagger: 1,
+//    scrollTrigger:{
+//        /*scroller: ".containerScroll",*/
+//        trigger: '.blob',
+//        start: '60% center',
+//        end: '80% center',
+//        markers:true,   
+//        scrub: 1,
+//        opacity: 0,
+//        toggleActions: 'restart pause reverse reset'
+//    }
+//})
+
 //if (window.matchMedia("(min-width: 400px)").matches) {
 //
 //}
