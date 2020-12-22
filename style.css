@@ -932,6 +932,7 @@ input[type=email] {
     flex-grow: 1;
     height: auto;
     color: #d6d6d6;
+    background-color: rgba(255, 255, 255, 0);
     /*-webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: var(--black);*/
     font-size: 50px;
@@ -944,7 +945,7 @@ input[type=submit] {
     flex-grow: 1;
     padding: 20px;
     border: none;
-    background-color:var(--white);
+    background-color: rgba(255, 255, 255, 0);
     cursor: pointer;
     }
 
