@@ -172,8 +172,8 @@
 
     </main>
 
-    <form name="contacto" id="form" action="/thanks" method="POST" data-color="white" data-netlify-recaptcha="true" data-netlify="true">
-            <label class="paises"> Where are you from?
+    <form name="contacto" id="form" action="/thanks" method="POST" data-color="white" data-netlify="true">
+            <label name="paises"  class="paises"> Where are you from?
                 <input type="text" list="paises">
                 </label>
                 <datalist id="paises">
@@ -186,7 +186,7 @@
                         <option>Africa</option>
                         <option>Australia</option>
                 </datalist><br>
-            <input type="email" placeholder="address@email.com" required>
+            <input name="email" type="email" placeholder="address@email.com" required>
             <input type="submit" value="submit">  
     </form>
 
