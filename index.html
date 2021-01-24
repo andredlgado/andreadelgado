@@ -172,7 +172,7 @@
 
     </main>
 
-    <form name="contacto" id="form" action="/thanks" method="GET" data-color="white" data-netlify="true">
+    <form name="contacto" id="form" action="/thanks" method="POST" data-color="white" data-netlify-recaptcha="true" data-netlify="true">
             <label class="paises"> Where are you from?
                 <input type="text" list="paises">
                 </label>
@@ -187,6 +187,7 @@
                         <option>Australia</option>
                 </datalist><br>
             <input type="email" placeholder="address@email.com" required>
+            <div data-netlify-recaptcha="true"></div>
             <input type="submit" value="submit">  
     </form>
 
